@@ -17,14 +17,20 @@ html, body {
 /* left side */
 .left {
     background-image: url("images/leaves.jpg");
+    background-size: cover;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    width: 40%;
 }
 .logo {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
+    flex-direction: row;
+    flex-shrink:0;
     align-items: center;
+    padding: 15px 0px;
+    justify-content: center;
 }
 #logotext
 {
@@ -37,6 +43,7 @@ html, body {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
+    text-align: center;
 }
 #photocredit a
 {
