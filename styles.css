@@ -1,10 +1,44 @@
-body {
-    margin: 0 auto;
+@font-face {
+    font-family: Norse;
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf") format("opentype");
+}
+
+/* main content */
+html, body {
+    margin: 0;
+    height: 100%;
 }
 .container {
     display: flex;
     align-items: stretch;
+    height: 100%;
 }
-.container .left {
+
+/* left side */
+.left {
     background-image: url("images/leaves.jpg");
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+#logotext
+{
+    color: white;
+    font-family: Norse, 'Calibri', 'Arial', sans-serif;
+    font-size: 100px;
+}
+#photocredit
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+#photocredit a
+{
+    color: white;
 }
