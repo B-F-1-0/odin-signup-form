@@ -64,4 +64,26 @@ html, body {
     padding: 10% 100px 25px 50px;
     font-weight: 600;
     font-size: 24px;
+    border-bottom: 1px solid gainsboro;
+}
+.registrationform
+{
+    padding-left:50px;
+}
+.registrationform h2
+{
+    font-weight: 600;
+    font-size: 24px;
+}
+form label
+{
+    font-size: 12px;
+    font-weight: bold;
+    color:darkslategrey;
+    display:block;
+    letter-spacing: 0.1rem;
+}
+form
+{
+    display:flex;
 }
