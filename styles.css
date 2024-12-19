@@ -50,3 +50,18 @@ html, body {
 {
     color: white;
 }
+
+/* right side */
+.right
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rightintro
+{
+    background-color: ghostwhite;
+    padding: 10% 100px 25px 50px;
+    font-weight: 600;
+    font-size: 24px;
+}
