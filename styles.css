@@ -64,25 +64,28 @@ html, body {
     padding: 10% 100px 25px 50px;
     font-weight: 600;
     font-size: 24px;
-    border-bottom: 1px solid gainsboro;
+    
 }
 .registrationform
 {
-    padding-left:50px;
-    padding-bottom: 25px;
+    border-top: 1px solid gainsboro;
+    background-color: ghostwhite;
 }
 .registrationform legend
 {
     font-weight: 600;
     font-size: 24px;
     border-width: 0px;
+    padding: 0px;
+    display:inline-block;
+    background-color: white;
+    width:100%;
 }
-form
+fieldset
 {
-    display: flex;
-    flex-wrap:wrap;
-    width: 600px;
-    gap: 10px 50px;
+    border: 0px solid black;
+    background-color: white;
+    padding: 0;
 }
 form label
 {
@@ -108,10 +111,6 @@ form input:valid
 form input:invalid
 {
     border-color: darkred;
-}
-.submitbutton
-{
-    background-color: ghostwhite;
 }
 button
 {
